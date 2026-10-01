@@ -13,6 +13,9 @@ exclude:
   - node_modules
   - PLAN.md
   - Change1.md
+  - Change2.md
+  - Change3.md
+  - Change4.md
   - README.md
   - replit.md
   - .replit

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "Akhil Neelam's portfolio: product work across AI, education, and public-interest technology."
+description: "Akhil Neelam builds AI products and automates workflows, with experience across startups, education, and public-interest technology."
 permalink: /
 homepage: true
 ---
@@ -10,8 +10,8 @@ homepage: true
   <div class="home-copy">
     <p class="eyebrow">Product · AI · Public-interest technology</p>
     <h1 id="home-title">Akhil Neelam</h1>
-    <p class="home-lead">I work across AI products, education, and public-interest technology.</p>
-    <p class="home-support">I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas. My experience spans AI product development, workflow automation, education technology, and mission-driven programs.</p>
+    <p class="home-lead">I build AI products and automate workflows, with experience in startups, education technology, and public-interest programs.</p>
+    <p class="home-support">I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas.</p>
     <div class="page-actions">
       <a class="text-link" href="{{ '/work-experience/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
       <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
