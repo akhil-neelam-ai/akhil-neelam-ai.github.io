@@ -1,1 +1,2 @@
 - [Artifact cleanup boundary](artifact-cleanup-boundary.md) — registered Replit artifacts may retain protected metadata and stopped workflows after source removal.
+- [GitHub branch push fallback](github-branch-push-fallback.md) — use the GitHub connector when CLI push auth fails; chunk and hash-check large blobs.
