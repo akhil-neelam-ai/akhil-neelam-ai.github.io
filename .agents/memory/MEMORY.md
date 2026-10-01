@@ -1,0 +1,1 @@
+- [Artifact cleanup boundary](artifact-cleanup-boundary.md) — registered Replit artifacts may retain protected metadata and stopped workflows after source removal.

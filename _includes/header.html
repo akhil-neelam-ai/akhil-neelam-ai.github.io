@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-name" href="{{ '/' | relative_url }}" aria-label="Akhil Neelam home">
+      <span class="site-mark" aria-hidden="true">AN</span>
+      <span>Akhil Neelam</span>
+    </a>
+
+    <div class="header-tools">
+      <nav aria-label="Main navigation">
+        <ul class="navigation">
+          {% for item in site.data.navigation %}
+            <li>
+              <a
+                href="{{ item.url | relative_url }}"
+                {% if page.url == item.url %}aria-current="page"{% endif %}
+              >{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {% include theme-button.html %}
+    </div>
+  </div>
+</header>

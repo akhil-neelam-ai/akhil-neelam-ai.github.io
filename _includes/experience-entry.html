@@ -1,0 +1,13 @@
+<article class="experience-entry">
+  <div class="experience-heading">
+    <div>
+      <h2>{{ include.company }}</h2>
+      <p class="experience-role">{{ include.role }}</p>
+    </div>
+    <time class="experience-date" datetime="{{ include.datetime }}">{{ include.dates }}</time>
+  </div>
+  {% if include.context %}
+    <p class="experience-context">{{ include.context }}</p>
+  {% endif %}
+  {{ include.content }}
+</article>

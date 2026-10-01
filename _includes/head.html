@@ -1,0 +1,33 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#f3f4ed">
+  <title>{{ page.title | escape }} — {{ site.title | escape }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ page.title | escape }} — {{ site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+
+  <script>
+    (() => {
+      let theme = "light";
+      try {
+        const savedTheme = localStorage.getItem("akhil-site-theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        theme = savedTheme === "dark" || savedTheme === "light"
+          ? savedTheme
+          : (prefersDark ? "dark" : "light");
+      } catch {
+        theme = "light";
+      }
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+</head>

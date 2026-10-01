@@ -1,0 +1,26 @@
+title: Akhil Neelam
+description: Product work across AI, education, and public-interest technology.
+url: "https://akhil-neelam-ai.github.io"
+baseurl: ""
+markdown: kramdown
+timezone: America/Los_Angeles
+
+exclude:
+  - attached_assets
+  - artifacts
+  - lib
+  - scripts
+  - node_modules
+  - PLAN.md
+  - README.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - .npmrc
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - pnpm-lock.yaml
+  - pnpm-workspace.yaml
+  - tsconfig.json
+  - tsconfig.base.json
