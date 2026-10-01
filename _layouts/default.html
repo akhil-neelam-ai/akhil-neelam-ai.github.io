@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <main id="main-content" class="site-main">
-      <div class="reading-column">
+      <div class="reading-column{% if page.homepage %} reading-column-home{% endif %}">
         {{ content }}
       </div>
     </main>

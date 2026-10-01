@@ -3,20 +3,30 @@ layout: default
 title: Home
 description: "Akhil Neelam's portfolio: product work across AI, education, and public-interest technology."
 permalink: /
+homepage: true
 ---
 
-<p class="eyebrow">Product · AI · Public-interest technology</p>
-
-# Akhil Neelam
-
-I work across AI products, education, and public-interest technology.
-
-I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas. My experience spans AI product development, workflow automation, education technology, and mission-driven programs.
-
-<div class="page-actions">
-  <a class="text-link" href="{{ '/work-experience/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
-  <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
-</div>
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="home-copy">
+    <p class="eyebrow">Product · AI · Public-interest technology</p>
+    <h1 id="home-title">Akhil Neelam</h1>
+    <p class="home-lead">I work across AI products, education, and public-interest technology.</p>
+    <p class="home-support">I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas. My experience spans AI product development, workflow automation, education technology, and mission-driven programs.</p>
+    <div class="page-actions">
+      <a class="text-link" href="{{ '/work-experience/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
+      <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <figure class="home-portrait">
+    <img
+      src="{{ '/assets/images/akhil-neelam.jpg' | relative_url }}"
+      alt="Portrait of Akhil Neelam"
+      width="1200"
+      height="1200"
+      fetchpriority="high"
+      decoding="async">
+  </figure>
+</section>
 
 <hr class="section-rule">
 

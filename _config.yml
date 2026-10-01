@@ -12,6 +12,7 @@ exclude:
   - scripts
   - node_modules
   - PLAN.md
+  - Change1.md
   - README.md
   - replit.md
   - .replit
