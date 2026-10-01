@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "Akhil Neelam's portfolio: product work across AI, education, and public-interest technology."
+description: "Akhil Neelam builds AI products and automates workflows, with experience across startups, education, and public-interest technology."
 permalink: /
 ---
 
@@ -9,9 +9,9 @@ permalink: /
 
 # Akhil Neelam
 
-I work across AI products, education, and public-interest technology.
+I build AI products and automate workflows, with experience in startups, education technology, and public-interest programs.
 
-I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas. My experience spans AI product development, workflow automation, education technology, and mission-driven programs.
+I’m currently a Product Intern at Volt AI and an MBA candidate at UC Berkeley Haas.
 
 <div class="page-actions">
   <a class="text-link" href="{{ '/work-experience/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
